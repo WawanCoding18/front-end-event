@@ -7,7 +7,7 @@ interface PropTypes {
 
 //Make sure to pass the title prop to the Head component
 const PageHead = (props: PropTypes) => {
-  const { title = "Event" } = props;
+  const { title = "WanCourse" } = props;
   return (
     <Head>
       <meta charSet="UTF-8" />
