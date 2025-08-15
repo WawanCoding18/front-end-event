@@ -1,5 +1,5 @@
 import AuthLayout from "@/components/Commons/PageHead/layouts/AuthLayout";
-import Register from "@/components/views/Register";
+import Register from "@/components/views/Auth/Register";
 
 // for register page load
 const RegisterPage = () => {
@@ -9,6 +9,5 @@ const RegisterPage = () => {
     </AuthLayout>
   );
 };
-
 
 export default RegisterPage;
