@@ -17,10 +17,8 @@ Admin Dashboard – view Dashboard, manages Event, Category, Banner, and Transac
 - MongoDB
 
 How to Run
-Clone this repository
-
-git clone https://github.com/WawanCoding18/front-end-event.git
-cd front-end-event
-Install dependencies:
-
-npm install
+- Clone this repository
+- git clone https://github.com/WawanCoding18/front-end-event.git
+- cd front-end-event
+- Install dependencies:
+- npm install
