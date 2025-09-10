@@ -7,13 +7,11 @@ const authServices = {
   register: (payload: IRegister) =>
     instance.post(`${endpoint.AUTH}/register`, payload),
 
-  activation: (payload: IActivevateCode) => {
-    return instance.post(`${endpoint.AUTH}/activation`, payload);
-  },
+  activation: (payload: IActivevateCode) => 
+    instance.post(`${endpoint.AUTH}/activation`, payload),
 
-  login: (payload: ILogin) => {
-    return instance.post(`${endpoint.AUTH}/login`, payload);
-  },
+  login: (payload: ILogin) => 
+    instance.post(`${endpoint.AUTH}/login`, payload),
 
   getProfileWithToken: (token:string) => {
     return instance.get(`${endpoint.AUTH}/me`,{
