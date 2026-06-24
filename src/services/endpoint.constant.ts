@@ -1,5 +1,5 @@
 const endpoint = {
-    AUTH:"/auth",
+    AUTH: "/api/auth",
 }
 
 export default endpoint;
